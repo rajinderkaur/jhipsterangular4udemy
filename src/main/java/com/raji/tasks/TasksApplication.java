@@ -14,6 +14,7 @@ import service.TaskService;
 import java.time.LocalDate;
 @EnableJpaRepositories
 @SpringBootApplication
+    /*(scanBasePackages = {"com.raji.tasks", "controller","repository","domain","service"})*/
 @EntityScan("domain")
 public class TasksApplication {
 
